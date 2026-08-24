@@ -1,0 +1,40 @@
+body{
+background-color: #1a1416;
+color: #e6e6e6;
+max-width: 700px;
+margin: 0 auto;
+padding: 40px 20px;
+font-family: ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+h1, h2 {
+  color: #f0a8c0;
+}
+
+h2::before {
+  content: "$ ";
+  color: #f0a8c0;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+h1::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 1.1em;
+  background-color: #f0a8c0;
+  margin-left: 6px;
+  vertical-align: text-bottom;
+  animation: blink 1s step-end infinite;
+}
+
+/* becomes transparent after reaching 50% opacity */
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
