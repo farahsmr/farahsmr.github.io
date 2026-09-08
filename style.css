@@ -70,3 +70,24 @@ color: #f0a8c0;
 background-color: #f0a8c0;
 color: #1a1416;
 }
+
+.timeline{
+position: relative;
+border-left: 2px solid #f0a8c0;
+padding-left: 30px;
+}
+
+.entry{
+position: relative;
+}
+
+.entry::before{
+content: "";
+position: absolute; /* not the normal top to bottom flow */
+left: -37px;
+top: 6px;
+width: 12px;
+height: 12px;
+border-radius: 999px;
+background-color: #f0a8c0;
+}
