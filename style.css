@@ -38,3 +38,35 @@ h1::after {
     opacity: 0;
   }
 }
+
+/* this rule arranges the group */
+#skills ul{
+list-style: none;    /* removes the dots */
+padding: 0;         /* removes the built in indent */
+display: flex;      /* next to each other */
+flex-wrap: wrap
+gap: 10px
+}
+
+/*this rule styles each one*/
+#skills li{
+border: 1px solid #f0a8c0;
+border-radius: 999px; /* pill shape */
+padding: 7px 15px;
+color: #f0a8c0;
+}
+
+.contact-link{
+  border: 1px solid #f0a8c0;
+  border-radius: 999px;
+  padding: 10px 14px;
+  color: #f0a8c0;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s; /* to look smoother */
+   }
+  /*using pseudo class hover to fill when clicking the icons*/
+.contact-link:hover{
+background-color: #f0a8c0;
+color: #1a1416;
+}
