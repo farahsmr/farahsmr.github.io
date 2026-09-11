@@ -46,7 +46,7 @@ list-style: none;    /* removes the dots */
 padding: 0;         /* removes the built in indent */
 display: flex;      /* next to each other */
 flex-wrap: wrap
-gap: 10px
+gap: 10px;
 }
 
 /*this rule styles each one*/
@@ -96,7 +96,7 @@ background-color: #f0a8c0;
 #about h3{
 color: #f0a8c0;
 font-size: 16px;
-margin-top: 28px
+margin-top: 28px;
 margin-bottom: 6px;
 }
 
@@ -176,4 +176,69 @@ nav a:hover {
 
 nav a:hover i {
 opacity:1;
+}
+
+/* photobooth  */
+.photo-window {
+    width: 450px;
+    border: 1px solid #3a2f34;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    background-color: #ececec;
+}
+
+.photo {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 0 10px;
+}
+
+.top-banner {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.camera-bar {
+    background-color: #ececec;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.shutter {
+    width: 38px;
+    height: 38px;
+    border-radius: 999px;
+    background-color: #ff3b30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shutter i {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.cam-light {
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    background-color: #28c840;
+    box-shadow: 0 0 6px #28c840;
+    display: inline-block;
+}
+.photo-window .titlebar {
+    background-color: #ececec;
+}
+
+.photo-window .app-name {
+    color: #2a2a2a;
+    font-weight: 700;
+    font-size: 14px;
 }
