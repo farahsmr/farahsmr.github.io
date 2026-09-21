@@ -8,6 +8,10 @@ margin: 0;
 font-family: "Space Mono", ui-monospace, "SF Mono", Menlo, monospace;
 }
 
+section{
+margin-top: 120px;
+}
+
 h1, h2 {
   color: #f0a8c0;
 }
@@ -22,6 +26,11 @@ h1 {
   margin-bottom: 8px;
 }
 
+h2 {
+  font-size: 35px;
+  margin-bottom:20px;
+  margin-top:50px;
+}
 h1::after {
   content: "";
   display: inline-block;
@@ -95,7 +104,7 @@ background-color: #f0a8c0;
 
 #about h3{
 color: #f0a8c0;
-font-size: 16px;
+font-size: 19px;
 margin-top: 28px;
 margin-bottom: 6px;
 }
@@ -270,4 +279,29 @@ opacity:1;
 
 #skills ul {
     justify-content: center;
+}
+
+/* work experience */
+.job-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.company-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.job-date {
+    color: #9a8a90;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.job-title-block {
+    display: flex;
+    flex-direction: column;
 }
