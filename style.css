@@ -45,7 +45,7 @@ h1::after {
 list-style: none;    /* removes the dots */
 padding: 0;         /* removes the built in indent */
 display: flex;      /* next to each other */
-flex-wrap: wrap
+flex-wrap: wrap;
 gap: 10px;
 }
 
@@ -185,7 +185,7 @@ opacity:1;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-    background-color: #ececec;
+    background-color: #2a2024;
 }
 
 .photo {
@@ -204,7 +204,7 @@ opacity:1;
 
 
 .camera-bar {
-    background-color: #ececec;
+    background-color: #2a2024;
     padding: 8px;
     display: flex;
     justify-content: center;
@@ -234,11 +234,40 @@ opacity:1;
     display: inline-block;
 }
 .photo-window .titlebar {
-    background-color: #ececec;
+    background-color: #2a2024;
 }
 
 .photo-window .app-name {
-    color: #2a2a2a;
+    color: #e6e6e6;
     font-weight: 700;
     font-size: 14px;
+}
+
+/* the skills part */
+.skill-columns {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.skill-group {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.skill-icon {
+    font-size: 32px;
+    color: #f0a8c0;
+    margin-bottom: 12px;
+}
+
+.skill-group h3 {
+    color: #f0a8c0;
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+
+#skills ul {
+    justify-content: center;
 }
