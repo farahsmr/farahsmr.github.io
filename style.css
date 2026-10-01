@@ -335,3 +335,64 @@ footer {
     font-size: 14px;
     margin: 30px 0 0;
 }
+
+/* Thesis */
+.thesis-card {
+    border: 1px solid #f0a8c0;
+    border-radius: 12px;
+    background-color: #2a2024;
+    padding: 30px 40px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.thesis-title {
+    color: #f0a8c0;
+    font-size: 20px;
+    margin: 0 0 16px;
+}
+
+.thesis-icon {
+    display: block;
+    font-size: 28px;
+    color: #f0a8c0;
+    margin-bottom: 16px;
+}
+
+.thesis-card p {
+    line-height: 1.7;
+    margin: 0 0 24px;
+}
+
+.thesis-link {
+    display: inline-block;
+    border: 1px solid #f0a8c0;
+    border-radius: 999px;
+    padding: 8px 18px;
+    color: #f0a8c0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.thesis-link:hover {
+    background-color: #f0a8c0;
+    color: #1a1416;
+}
+
+/* read more page */
+.thesis-subtitle {
+    color: #f0a8c0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.thesis-page {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.thesis-page p,
+.thesis-page li {
+    line-height: 1.7;
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachelor's Thesis - Farah Somrani</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap">
+</head>
+<body>
+<div class="window">
+
+    <div class="titlebar">
+        <div class="lights">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+        </div>
+        <nav>
+            <a href="index.html"><i class="fa-solid fa-folder"></i> Back to portfolio</a>
+        </nav>
+    </div>
+
+    <div class="content thesis-page">
+        <h1>Bachelor's Thesis</h1>
+        <p class="thesis-subtitle">Empirical Evaluation of
+            Query Optimization Techniques
+            Using Controlled Execution Plans</p>
+
+        <h2>Abstract</h2>
+        <p>Query optimizers work in an interesting manner, almost like a chain of connected choices. Several
+            decisions are brought together until one executable plan is selected as the best according to the
+            information available to the optimizer. Understanding these decisions is essential, which is why work
+            on more accurate estimators, better search strategies or better operator rules never really stops. Much
+            of this work, however, focuses on individual decisions separately. In this thesis, we consider both
+            views and examine the decisions individually and as part of the optimization process.
+
+            To realize this experimentally, we adopt recently developed research frameworks that give us a certain
+            level of control over selected optimizer decisions, while leaving the remaining optimization process
+            to PostgreSQL. We consider three benchmarks, and the results show differences between workloads
+            and cases where some decisions are more important than others, where local improvements do not
+            translate into better final plans, and where promising changes or distorted information interact with
+            other decisions and produce interesting results.
+
+            Rather than proposing a new optimization algorithm, this thesis is structured around this interplay,
+            highlighting that understanding it can sometimes be just as important as improving a single decision,
+            if not more. Our experiments are limited to PostgreSQL, but the way we ask the questions is more
+            general: as optimizer techniques and systems continue to change, understanding how individual
+            optimizer decisions affect performance, and how these effects change once the decisions interact, can
+            be useful beyond one particular system or database version.</p>
+
+        <h2>Related Work</h2>
+        <ul>
+            <li>tbd</li>
+
+        </ul>
+        <h2>Main Findings</h2>
+        <ul>
+            <li>tbd</li>
+
+        </ul>
+    </div>
+
+</div>
+</body>
+</html>
