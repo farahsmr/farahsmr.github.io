@@ -117,6 +117,19 @@
 
     </div>
 </section>
+
+    <section id="thesis">
+        <h2>Bachelor's Thesis</h2>
+
+        <div class="thesis-card">
+            <h3 class="thesis-title">Empirical Evaluation of
+                Query Optimization Techniques
+                Using Controlled Execution Plans</h3>
+            <i class="fa-solid fa-graduation-cap thesis-icon"></i>
+            <p>Query optimization is made up of many decisions, and while each of them can be studied on its own, in the end they all come together to produce one final plan. This thesis looks at both sides of that process. Using PostgreSQL and research frameworks that allow selected optimizer decisions to be controlled, I examine cardinality estimation, join ordering and physical operators across different benchmarks. The experiments look at where individual techniques help, how their importance changes between workloads, and what happens to these improvements once the rest of the optimizer is involved. Rather than introducing a new optimization technique, the work is about understanding the decisions we already try to improve, both individually and as part of the bigger picture.</p>
+            <a href="thesis.html" class="thesis-link">Read More</a>
+        </div>
+    </section>
 <section id="about">
     <h2>About me</h2>
     <h3>whoami</h3>
@@ -181,21 +194,38 @@
         </div>
     </section>
 
-    <section id="thesis">
-        <h2>Bachelor's Thesis</h2>
 
-        <div class="thesis-card">
-            <h3 class="thesis-title">Empirical Evaluation of
-                Query Optimization Techniques
-                Using Controlled Execution Plans</h3>
-            <i class="fa-solid fa-graduation-cap thesis-icon"></i>
-            <p>Query optimization is made up of many decisions, and while each of them can be studied on its own, in the end they all come together to produce one final plan. This thesis looks at both sides of that process. Using PostgreSQL and research frameworks that allow selected optimizer decisions to be controlled, I examine cardinality estimation, join ordering and physical operators across different benchmarks. The experiments look at where individual techniques help, how their importance changes between workloads, and what happens to these improvements once the rest of the optimizer is involved. Rather than introducing a new optimization technique, the work is about understanding the decisions we already try to improve, both individually and as part of the bigger picture.</p>
-            <a href="thesis.html" class="thesis-link">Read More</a>
-        </div>
-    </section>
     <section id="projects">
         <h2>Projects</h2>
+
+        <div class="slider">
+
+            <div class="project-card">
+                <h3>PROJECT 1</h3>
+                <p>tbd^.</p>
+                <a href="https://github.com/farahsmr/REPO-NAME" class="thesis-link">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>PROJECT 2</h3>
+                <p>tbd.</p>
+                <a href="https://github.com/farahsmr/REPO-NAME" class="thesis-link">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>PROJECT 3</h3>
+                <p>tbd.</p>
+                <a href="https://github.com/farahsmr/REPO-NAME" class="thesis-link">View on GitHub</a>
+            </div>
+        </div>
+            <div class="slider-buttons">
+                <button id="prev">←</button>
+                <button id="next">→</button>
+            </div>
+
     </section>
+
+</div>
     <footer id="contact">
         <p class="footer-name">Farah Somrani</p>
         <div class="footer-icons">
@@ -206,6 +236,6 @@
         <p class="footer-copy">© 2026 Farah Somrani</p>
     </footer>
 </div>
-</div>
+<script src="script.js"></script>
 </body>
 </html>
