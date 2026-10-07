@@ -197,7 +197,8 @@
 
     <section id="projects">
         <h2>Projects</h2>
-
+        <div class="slider-wrapper">
+            <button id="prev" class="slider-btn">←</button>
         <div class="slider">
 
             <div class="project-card">
@@ -213,16 +214,30 @@
             </div>
 
             <div class="project-card">
-                <h3>PROJECT 3</h3>
-                <p>tbd.</p>
-                <a href="https://github.com/farahsmr/REPO-NAME" class="thesis-link">View on GitHub</a>
-            </div>
-        </div>
-            <div class="slider-buttons">
-                <button id="prev">←</button>
-                <button id="next">→</button>
+
+                <h3>Trunk-Based Development Explained</h3>
+                <img src="images/trunk.png" alt="Trunk-based development diagram" class="project-img">
+                <p>A hands-on write-up where I explored trunk-based development by actually trying the workflow: short-lived branches, pull requests, CI, feature flags, and merging back into main.</p>
+                <a href="https://github.com/farahsmr/tbd-explained" class="thesis-link">View on GitHub</a>
             </div>
 
+            <div class="project-card">
+                <h3>DeepBach: a Model
+                    for Chorales Generation</h3>
+                <img src="images/deepbach.png" alt="DeepBach" class="project-img">
+                <p>An academic seminar project exploring DeepBach, a generative model for creating Bach-style chorales. I studied how the model works and presented the topic through a research paper, presentation, and audio examples.</p>
+                <a href="https://github.com/farahsmr/Seminar-DeepBach" class="thesis-link">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>UniDB</h3>
+                <img src="images/unidb.png" alt="uniDB Logo" class="project-img">
+                <p>A command-line Java app for managing university building data in a MySQL database. You can list, add and delete buildings, with input validation and JDBC prepared statements. The sample data is based on TU Dortmund.</p>
+                <a href="https://github.com/farahsmr/unidb" class="thesis-link">View on GitHub</a>
+            </div>
+            <button id="next" class="slider-btn">→</button>
+        </div>
+        </div>
     </section>
 
 </div>
