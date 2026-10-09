@@ -28,7 +28,7 @@ h1 {
 
 h2 {
   font-size: 35px;
-  margin-bottom:20px;
+  margin-bottom:50px;
   margin-top:50px;
 }
 h1::after {
@@ -95,6 +95,7 @@ position: relative;
 }
 
 .entry::before{
+transition: 0.3s;
 content: "";
 position: absolute; /* not the normal top to bottom flow */
 left: -37px;
@@ -477,4 +478,46 @@ footer {
     margin-top: 0;
     line-height: 1.3;
     min-height: 2.6em;
+}
+/* change link color */
+.thesis-page a {
+    color: #f0a8c0;
+    text-underline-offset: 3px;
+    transition: 0.3s;
+}
+
+.thesis-page a:hover {
+    color: #ffffff;
+}
+
+/* animation */
+.project-card,
+.thesis-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover,
+.thesis-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(240, 168, 192, 0.25);
+}
+
+#skills li {
+    transition: 0.3s;
+}
+
+#skills li:hover {
+    background-color: #f0a8c0;
+    color: #1a1416;
+    transform: translateY(-3px);
+}
+
+.entry:hover::before {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px #f0a8c0;
+}
+
+.slider {
+    padding-top: 12px;
+    padding-bottom: 24px;
 }
