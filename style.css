@@ -521,3 +521,43 @@ footer {
     padding-top: 12px;
     padding-bottom: 24px;
 }
+
+/* ongoing progress */
+.status-badge {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #f0a8c0;
+    border: 1px dashed #f0a8c0;
+    border-radius: 999px;
+    padding: 3px 12px;
+    margin-bottom: 14px;
+}
+
+.status-badge::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 999px;
+    background-color: #28c840;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    50% { opacity: 0.3; }
+}
+.card-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0 12px;
+    margin-bottom: 0;
+}
+
+.project-img.logo-img {
+    object-fit: contain;
+    background-color: #ffffff;
+}
+
